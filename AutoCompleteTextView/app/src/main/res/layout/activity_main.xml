@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Google"
+        android:textAlignment="center"
+        android:textColor="#CF1B0E"
+        android:textSize="60sp"
+        android:textStyle="bold">
+
+    </TextView>
+
+    <AutoCompleteTextView
+        android:id="@+id/at1"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_below="@+id/text1"
+        android:layout_marginLeft="20sp"
+        android:layout_marginTop="40sp"
+        android:layout_marginRight="20sp"
+        android:hint="Search here"
+        android:textSize="40sp"
+        android:textAlignment="center"
+        android:completionThreshold="1">
+
+    </AutoCompleteTextView>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/at1"
+        android:layout_marginTop="60sp"
+        android:text="Search"
+        android:textSize="40sp"
+        android:layout_marginLeft="90dp"
+        android:backgroundTint="#8FE9F4"
+        android:textColor="@color/black"
+        >
+
+    </Button>
+
+</RelativeLayout>

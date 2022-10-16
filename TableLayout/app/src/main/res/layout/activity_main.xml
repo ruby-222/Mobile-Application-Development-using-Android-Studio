@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:stretchColumns="2"
+    android:layout_marginLeft="10sp"
+    android:layout_marginTop="20sp"
+    android:layout_marginRight="10sp">
+
+    <TextView
+    android:text="Students Marks List"
+    android:textSize="35sp"
+    android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        />
+
+<TableRow
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content">
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Roll.no"
+        android:textSize="30sp"
+        android:textColor="#050505"
+        android:background="#F6D7D7"
+        android:textAlignment="center"
+        />
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="NAME"
+        android:textSize="30sp"
+        android:textColor="#050505"
+        android:background="#F6D7D7"
+        android:textAlignment="center"
+        />
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="MARKS"
+        android:textSize="30sp"
+        android:textColor="#050505"
+        android:background="#F6D7D7"
+        android:textAlignment="center"
+        />
+
+</TableRow>
+
+
+    <TableRow
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content">
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="23"
+            android:textSize="30sp"
+            android:textColor="#050505"
+            android:background="#C4E3F4"
+            android:textAlignment="center"
+            />
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Inamdar Bahar"
+            android:textSize="30sp"
+            android:textColor="#050505"
+            android:background="#C4E3F4"
+            android:textAlignment="center"
+            />
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="87"
+            android:textSize="30sp"
+            android:textColor="#050505"
+            android:background="#C4E3F4"
+            android:textAlignment="center"
+            />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content">
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="18"
+            android:textSize="30sp"
+            android:textColor="#050505"
+            android:background="#C4E3F4"
+            android:textAlignment="center"
+            />
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Firodiya Siddhi"
+            android:textSize="30sp"
+            android:textColor="#050505"
+            android:background="#C4E3F4"
+            android:textAlignment="center"
+            />
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="87"
+            android:textSize="30sp"
+            android:textColor="#050505"
+            android:background="#C4E3F4"
+            android:textAlignment="center"
+            />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content">
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="45"
+            android:textSize="30sp"
+            android:textColor="#050505"
+            android:background="#C4E3F4"
+            android:textAlignment="center"
+            />
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Munot Bg"
+            android:textSize="30sp"
+            android:textColor="#050505"
+            android:background="#C4E3F4"
+            android:textAlignment="center"
+            />
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="89"
+            android:textSize="30sp"
+            android:textColor="#050505"
+            android:background="#C4E3F4"
+            android:textAlignment="center"
+            />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content">
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="62"
+            android:textSize="30sp"
+            android:textColor="#050505"
+            android:background="#C4E3F4"
+            android:textAlignment="center"
+            />
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Najiya Shaikh"
+            android:textSize="30sp"
+            android:textColor="#050505"
+            android:background="#C4E3F4"
+            android:textAlignment="center"
+            />
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="89"
+            android:textSize="30sp"
+            android:textColor="#050505"
+            android:background="#C4E3F4"
+            android:textAlignment="center"
+            />
+
+    </TableRow>
+    <TableRow
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content">
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="22"
+            android:textSize="30sp"
+            android:textColor="#050505"
+            android:background="#C4E3F4"
+            android:textAlignment="center"
+            />
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Shreya Salve"
+            android:textSize="30sp"
+            android:textColor="#050505"
+            android:background="#C4E3F4"
+            android:textAlignment="center"
+            />
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="90"
+            android:textSize="30sp"
+            android:textColor="#050505"
+            android:background="#C4E3F4"
+            android:textAlignment="center"
+            />
+
+    </TableRow>
+    <TableRow
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content">
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="34"
+            android:textSize="30sp"
+            android:textColor="#050505"
+            android:background="#C4E3F4"
+            android:textAlignment="center"
+            />
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Sareena KB"
+            android:textSize="30sp"
+            android:textColor="#050505"
+            android:background="#C4E3F4"
+            android:textAlignment="center"
+            />
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="98"
+            android:textSize="30sp"
+            android:textColor="#050505"
+            android:background="#C4E3F4"
+            android:textAlignment="center"
+            />
+
+    </TableRow>
+    <TableRow
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content">
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="64"
+            android:textSize="30sp"
+            android:textColor="#050505"
+            android:background="#C4E3F4"
+            android:textAlignment="center"
+            />
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Piyusha Patil"
+            android:textSize="30sp"
+            android:textColor="#050505"
+            android:background="#C4E3F4"
+            android:textAlignment="center"
+            />
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="99"
+            android:textSize="30sp"
+            android:textColor="#050505"
+            android:background="#C4E3F4"
+            android:textAlignment="center"
+            />
+
+    </TableRow>
+    <TableRow
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content">
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="32"
+            android:textSize="30sp"
+            android:textColor="#050505"
+            android:background="#C4E3F4"
+            android:textAlignment="center"
+            />
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Ruby Inamdar"
+            android:textSize="30sp"
+            android:textColor="#050505"
+            android:background="#C4E3F4"
+            android:textAlignment="center"
+            />
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="99"
+            android:textSize="30sp"
+            android:textColor="#050505"
+            android:background="#C4E3F4"
+            android:textAlignment="center"
+            />
+
+    </TableRow>
+    <TableRow
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content">
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="12"
+            android:textSize="30sp"
+            android:textColor="#050505"
+            android:background="#C4E3F4"
+            android:textAlignment="center"
+            />
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Shreyas Salve"
+            android:textSize="30sp"
+            android:textColor="#050505"
+            android:background="#C4E3F4"
+            android:textAlignment="center"
+            />
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="89"
+            android:textSize="30sp"
+            android:textColor="#050505"
+            android:background="#C4E3F4"
+            android:textAlignment="center"
+            />
+
+    </TableRow>
+    <TableRow
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content">
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="37"
+            android:textSize="30sp"
+            android:textColor="#050505"
+            android:background="#C4E3F4"
+            android:textAlignment="center"
+            />
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Kishori Ghule"
+            android:textSize="30sp"
+            android:textColor="#050505"
+            android:background="#C4E3F4"
+            android:textAlignment="center"
+            />
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="85"
+            android:textSize="30sp"
+            android:textColor="#050505"
+            android:background="#C4E3F4"
+            android:textAlignment="center"
+            />
+
+    </TableRow>
+</TableLayout>

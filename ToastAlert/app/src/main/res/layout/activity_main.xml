@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+  >
+
+    <CheckBox
+        android:id="@+id/chb1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pizza"
+        android:textSize="30dp"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="30dp"
+        />
+
+    <CheckBox
+        android:id="@+id/chb2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/chb1"
+        android:text="Coffee"
+        android:textSize="30dp"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="30dp"
+        />
+
+    <CheckBox
+        android:id="@+id/chb3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/chb2"
+        android:text="Burger"
+        android:textSize="30dp"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="30dp"
+        />
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/chb3"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="30dp"
+        android:text="ORDER"
+        android:textSize="30dp"
+        />
+
+</RelativeLayout>

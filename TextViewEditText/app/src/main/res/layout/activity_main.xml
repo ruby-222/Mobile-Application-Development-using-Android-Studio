@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/t1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login Form"
+        android:textSize="50dp"
+        android:textStyle="bold"
+        android:textColor="#B65073"
+        android:textAlignment="center"
+        android:background="#81CCED">
+    </TextView>
+
+    <TextView
+        android:id="@+id/t2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/t1"
+        android:layout_marginTop="20sp"
+        android:layout_marginLeft="20sp"
+        android:text="Username"
+        android:textSize="30dp"
+        android:textStyle="bold">
+    </TextView>
+
+    <EditText
+        android:id="@+id/e1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/t2"
+        android:layout_below="@+id/t1"
+        android:layout_marginLeft="20sp"
+        android:layout_marginTop="20sp"
+        android:ems="10">
+
+    </EditText>
+
+    <TextView
+        android:id="@+id/t3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/t2"
+        android:layout_marginTop="20sp"
+        android:layout_marginLeft="20sp"
+        android:text="Password"
+        android:textSize="30dp"
+        android:textStyle="bold">
+    </TextView>
+
+    <EditText
+        android:id="@+id/e2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/t3"
+        android:layout_below="@+id/e1"
+        android:layout_marginLeft="20sp"
+        android:layout_marginTop="20sp"
+        android:ems="10">
+
+    </EditText>
+
+    <Button
+        android:id="@+id/b1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/t3"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="30dp"
+        android:text="Submit"
+        android:textSize="30sp"></Button>
+
+    <TextView
+        android:id="@+id/t4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/b1"
+        android:layout_marginTop="20sp"
+        android:layout_marginLeft="20sp"
+
+        android:textSize="25dp"
+        android:textStyle="bold">
+    </TextView>
+
+    <TextView
+        android:id="@+id/t5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/t4"
+        android:layout_marginTop="20sp"
+        android:layout_marginLeft="20sp"
+
+        android:textSize="25dp"
+        android:textStyle="bold">
+    </TextView>
+
+</RelativeLayout>
